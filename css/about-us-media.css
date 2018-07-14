@@ -1,0 +1,23 @@
+
+/* START ABOUT US SECTION STYLING */
+
+@media (max-width: 767px) {
+
+	#about-us-header .aboutus-header-title h2 {
+
+		font-size: 70px
+	}
+}
+
+/* START ABOUT US SECTION STYLING */
+
+/* START OUR STAFF SECTION STYLING */
+
+@media (max-width: 991px) {
+
+	#our-staff .card {
+
+		margin-bottom: 20px
+	}
+}
+/* END OUR STAFF SECTION STYLING */

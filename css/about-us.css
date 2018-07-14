@@ -1,0 +1,251 @@
+/* START ABOUT US SECTION STYLING */
+
+#about-us-header {
+
+	background-image: url('../images/toa-heftiba.jpg');
+	background-size: cover;
+	background-position: center center; 
+	padding-top: 150px;
+	padding-bottom: 150px;
+	position: relative;
+}
+
+#about-us-header .about-us-overlay {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7)
+}
+
+
+#about-us-header .aboutus-header-title h2 {
+
+	color: #fff;
+	font-size: 100px
+}
+
+
+/* END ABOUT US SECTION STYLING */
+
+
+/* START SKILLS SECTION STYLING */
+#skills {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+
+
+#skills .skills-description {
+
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+#skills .skills-description h2 {
+
+	color: #2b2b2b;
+	margin-bottom: 15px
+}
+
+#skills .skills-progress-bar p{
+
+	overflow: hidden;
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+
+#skills .skills-progress-bar p .skill-title {
+
+	float: left
+}
+
+#skills .skills-progress-bar p .skill-percent {
+
+	float: right;
+}
+
+
+#skills .progress-item {
+
+	height: 5px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	background-color: #e2e2e2
+}
+
+#skills .progress-item > span {
+
+	display: block;
+	height: 100%;
+	background-color: #007bff
+}
+
+#skills .progress-item .progress-percent-1{
+
+	width: 98%;
+}
+
+#skills .progress-item .progress-percent-2 {
+
+	width: 88%;
+}
+
+#skills .progress-item .progress-percent-3 {
+
+	width: 99%;
+}
+
+#skills .progress-item .progress-percent-4 {
+
+	width: 87%;
+}
+
+/* END SKILLS SECTION STYLING */
+
+
+/* START OUR STAFF SECTION STYLING */
+
+#our-staff {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #f7f7f7
+}
+
+#our-staff h2 {
+
+	color: #2b2b2b;
+	letter-spacing: 2px
+}
+
+#our-staff .staff-p {
+
+	margin-top: 20px;
+	margin-bottom: 45px
+}
+
+#our-staff .card {
+
+	border: none;
+	box-shadow: 0px 0px 3px rgba(0 , 107 , 255, .5)
+}
+
+
+#our-staff .card .job-title {
+
+	display: block;
+	color: #888;
+	margin-bottom: 10px
+}
+
+.card-title {
+
+	color: #888;
+	margin-bottom: 10px;
+	transition: all .5s ease-in-out;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px 
+
+}
+
+.card-title:hover {
+
+	color: #007bff;
+	text-decoration: none;
+}
+
+
+.card-body p {
+
+	padding-bottom: 10px;
+	border-bottom: 1px solid #888
+}
+
+.social-icon a {
+
+	color: #888;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 10px;
+	transition: all .5s ease-in-out
+}
+
+.social-icon a:hover {
+
+	color: #007bff;
+}
+
+/* END OUR STAFF SECTION STYLING */
+
+/* START OUR CREATIVE TEAM SECTION STYLING */
+
+#creative-team {
+
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: url(../images/shutterstock_85.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	position: relative;
+}
+
+#creative-team .creative-team-overlay {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #006bffe8;
+}
+
+
+#creative-team h3 {
+
+	font-size: 50px;
+	letter-spacing: 1px
+}
+
+#creative-team p {
+
+	color: #fff;
+	margin: 20px 0px;
+	font-size: 22px;
+	letter-spacing: 1px
+}
+
+#creative-team button {
+
+	background: #fff;
+    color: #007bff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .8s ease-in-out;
+}
+
+#creative-team button:hover {
+
+	color: #fff;
+    background-color: #007bff;
+    box-shadow: 0px 0px 5px #fff
+}
+
+/* END OUR CREATIVE TEAM SECTION STYLING */
+
+

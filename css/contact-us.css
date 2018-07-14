@@ -1,0 +1,125 @@
+/* START CONTACT US SECTION STYLING */
+
+#contact-us-header {
+
+	background-image: url('../images/contact.jpg');
+	background-size: cover;
+	background-position: center center; 
+	padding-top: 150px;
+	padding-bottom: 150px;
+	position: relative;
+}
+
+#contact-us-header .contact-us-overlay {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7)
+}
+
+
+#contact-us-header .contactus-header-title h2 {
+
+	color: #fff;
+	font-size: 100px
+}
+
+
+/* END CONTACT US SECTION STYLING */
+
+
+/* START CONTACT METHOD SECTION STYLING */
+#contact-us-method {
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #151515;
+	color: #fff
+}
+
+.contact-item {
+
+	overflow: hidden;
+}
+
+.contact-item span {
+
+	width: 20%;
+	float: left;
+
+}
+
+.contact-item-content {
+
+	width: 80%;
+	float: left
+
+}
+
+
+#contact-us-method  i {
+
+	font-size: 35px;
+	color: #007bff;
+	float: right;
+}
+
+#contact-us-method  h5 {
+
+	transition: all .5s ease-in-out;
+}
+
+#contact-us-method .media h5:hover {
+
+	color: #007bff;
+}
+
+/* START CONTACT METHOD SECTION STYLING */
+
+
+/* START MAP AND FORM SECTION STYLING */
+#map-form {
+
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#map-form h2 {
+
+	margin-bottom: 20px
+}
+
+#map-form .map-child iframe {
+
+	width: 100%;
+	height: 450px
+}
+
+
+#map-form .form-child textarea {
+
+	height: 200px;
+	resize: none;
+}
+
+
+#map-form .form-child .text-output {
+
+	margin: 20px 0px;
+	padding-left: 10px;
+}
+
+#map-form .form-child .text-output span {
+
+	color: #007bff;
+	font-weight: 600
+}
+
+
+/* .......................... */
+
